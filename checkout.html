@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Live Life Lean by Fighter Diet | Checkout</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no"/>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="stylesheets/default.css" type="text/css" media="screen"/>
+	</head>
+	<body class="cart">
+		<div class="container-fluid">
+			<section class="container-fluid" id="checkout">
+				<div class="container">
+					<nav class="fix-cart-nav">
+						<img src="images/live-life-lean-black.png" width="200" height="106" alt="Live Life Lean Black"/>
+						<a href="index.html"><span class="glyphicon glyphicon-chevron-left"></span> Back to Site</a>
+					</nav>
+				</div>
+				
+				<div class="container">
+					<div class="row">
+						<div class="col col-lg-12 col-md-12 col-sm-12 col-xs-12">	
+							<p class="login-yet">Already registered? <a href="#login" data-toggle="modal" data-target="#login-popup"><span class="glyphicon glyphicon-user"></span>Click here to login.</a></p>
+						</div>
+					</div>
+					<div class="row step">
+						<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4 current" rel="#step-1">	
+							<big>Step 1</big>
+							<h5>BILLING &amp; SHIPPING <small class="hidden-xs hidden-sm">Where should we send the order?</small></h5>
+						</div>
+						<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4 step-2" rel="#step-2">	
+							<big>Step 2</big>
+							<h5>SHIPPING METHOD <small class="hidden-xs hidden-sm">How do you want to ship for order?</small></h5>
+						</div>
+						<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4" rel="#step-3">	
+							<big>Step 3</big>
+							<h5>CONFIRMATION <small class="hidden-xs hidden-sm">How do you want to pay for order?</small></h5>
+						</div>
+					</div>			
+					<div id="step-1">
+						<div class="row">						
+							<div class="col col-lg-6 col-md-6 col-sm-12">
+								<h5>Billing Address</h5>
+								<form action="contact.html" method="get" id="billing-form">
+									<input type="text" name="f-name" value="" placeholder="First Name" id="f-name" class="form-control"/>
+									<input type="text" name="l-name" value="" placeholder="Last Name" id="l-name" class="form-control"/>
+									<input type="text" name="company" value="" placeholder="Company" id="company" class="form-control"/>
+									<input type="text" name="e-mail" value="" placeholder="E-mail" id="e-mail" class="form-control"/>
+									<input type="text" name="address" value="" placeholder="Address" id="address" class="form-control"/>
+									<input type="text" name="address-2" value="" placeholder="Address" id="address-2" class="form-control"/>
+									<input type="text" name="city" value="" placeholder="City" id="city" class="form-control"/>
+									<select name="state" id="state" class="form-control"/>
+										<option value="">State</option>
+										<option value="CA">CA</option>									
+										<option value="FL">FL</option>
+										<option value="TX">TX</option>
+										<option value="NY">NY</option>
+									</select>
+									<input type="text" name="zipcode" value="" placeholder="ZIP Code" id="zipcode" class="form-control"/>								
+									<select name="country" id="country" class="form-control"/>
+										<option value="">Country</option>
+										<option value="Brazil">Brazil</option>									
+										<option value="Canada">Canada</option>
+										<option value="US">United States</option>
+										<option value="Sweden">Sweden</option>
+									</select>
+									<input type="text" name="phone" value="" placeholder="Phone #" id="phone" class="form-control"/>
+									<label>
+										<input type="checkbox" name="create-account" value="1" id="create-account"/>
+										Create Account
+									</label>
+									<div class="row">
+										<div class="col col-lg-6 col-md-6 col-sm-12">
+											<input type="text" name="password" value="" placeholder="Password" id="qty" class="form-control"/>
+										</div>
+										<div class="col col-lg-6 col-md-6 col-sm-12">									
+											<input type="text" name="confirm-password" value="" placeholder="Confirm Password" id="confirm-password" class="form-control"/>
+										</div>
+									</div>									
+								</form>
+							</div>
+							<div class="col col-lg-6 col-md-6 col-sm-12">	
+								<h5>Shipping Address</h5>
+								<form action="contact.html" method="get" id="shipping-form">
+
+								</form>
+								<div class="radio">
+									<label>
+										<input type="radio" name="ship-to" id="same-as-billing" value="same-as-billing" checked>
+										Ship to Billing Address
+									</label>
+									<label>
+										<input type="radio" name="ship-to" id="different-address" value="different-address">
+										Ship to Different Address
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="row action">
+							<div class="col col-lg-12 col-md-12 col-sm-12">	
+								<button type="submit" class="btn btn-lg btn-info" rel="#step-2">NEXT <span class="glyphicon glyphicon-chevron-right"></span></button>
+							</div>
+						</div>
+					</div>
+					<div id="step-2">
+						<div class="row">						
+							<div class="col col-lg-6 col-md-6 col-sm-12">
+								<h5>Fedex</h5>
+								<ul class="list-group">
+									<label class="list-group-item">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing">
+										Groud<span class="badge">$11.10</span>
+									</label>
+									<label class="list-group-item active">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing" checked>
+										Express Saver<span class="badge">$18.62</span>
+									</label>
+									<label class="list-group-item">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing">
+										2 Day<span class="badge">$22.67</span>
+									</label>
+									<label class="list-group-item">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing">
+										Standard Overnight<span class="badge">$42.76</span>
+									</label>
+									<label class="list-group-item">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing">
+										First Overnight<span class="badge">$76.70</span>
+									</label>																																									
+								</ul>
+							</div>
+							<div class="col col-lg-6 col-md-6 col-sm-12">	
+								<h5>USPS</h5>
+								<ul class="list-group">
+									<label class="list-group-item">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing">
+										Groud<span class="badge">$9.10</span>
+									</label>
+									<label class="list-group-item">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing">
+										Express Saver<span class="badge">$14.62</span>
+									</label>
+									<label class="list-group-item">
+										<input type="radio" name="ship-method" id="same-as-billing" value="same-as-billing">
+										Standard Overnight<span class="badge">$42.76</span>
+									</label>																																								
+								</ul>
+							</div>
+						</div>
+						<div class="row action">
+							<div class="col col-lg-12 col-md-12 col-sm-12">	
+								<button type="submit" class="btn btn-lg btn-default" rel="#step-1">BACK <span class="glyphicon glyphicon-chevron-left"></span></button>
+								<button type="submit" class="btn btn-lg btn-info" rel="#step-3">NEXT <span class="glyphicon glyphicon-chevron-right"></span></button>
+							</div>
+						</div>
+					</div>
+					<div id="step-3">
+						<div class="row">
+							<div class="col col-lg-12 col-md-12 col-sm-12">
+								<h5>Customer Information</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col-lg-4 col-md-4 col-sm-12">
+								<h5>Billing Address</h5>
+								<p>
+									Philipe Casarotte<br/>
+									DBurns Design Corp.<br/>
+								<p>
+								<address>
+									1431 7th Street #305<br/>
+									Santa Monica, California, 90401<br/>
+									United States<br/>
+								</address>
+								<p>
+									T: (310) 882-2168<br/>
+									F: (310) 882-2168
+								</p>								
+							</div>
+							<div class="col col-lg-4 col-md-4 col-sm-12">	
+								<h5>Shipping Address</h5>
+								<p>
+									Philipe Casarotte<br/>
+									DBurns Design Corp.<br/>
+								<p>
+								<address>
+									1431 7th Street #305<br/>
+									Santa Monica, California, 90401<br/>
+									United States<br/>
+								</address>
+								<p>
+									T: (310) 882-2168<br/>
+									F: (310) 882-2168
+								</p>
+							</div>
+							<div class="col col-lg-4 col-md-4 col-sm-12">	
+								<h5>Shipping Method</h5>
+								<p>
+									USPS - Groud
+								</p>
+							</div>
+						</div>
+						<!--Cart -->
+						<div class="row">
+							<div class="col col-lg-12 col-md-12 col-sm-12">	
+								<h5>Review Your Order</h5>
+							</div>
+						</div>
+						<div class="row header">
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<label></label>
+							</div>
+							<div class="col col-lg-7 col-md-7 col-sm-7 col-xs-7">	
+								<p>Product Name</p>							
+							</div>
+							<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1">	
+								<p>Qty</p>							
+							</div>
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">
+								<p>Subtotal</p>							
+							</div>
+						</div>
+						<div class="row cart-row">
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<img src="images/product-shot-small-black.png" width="243" height="382" alt="Product Shot Small Black" class="img-responsive"/>
+							</div>
+							<div class="col col-lg-7 col-md-7 col-sm-7 col-xs-7">	
+								<p>
+									LLL WHEY Protein Supplement
+									<small>Flavor: Chocolate</small>
+								</p>								
+							</div>
+							<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1">	
+								<p>2</p>
+							</div>
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<p>$29.98</p>
+							</div>
+						</div>
+						<div class="row cart-row">
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<img src="images/product-shot-small-black.png" width="243" height="382" alt="Product Shot Small Black" class="img-responsive"/>
+							</div>
+							<div class="col col-lg-7 col-md-7 col-sm-7 col-xs-7">	
+								<p>
+									LLL WHEY Protein Supplement
+									<small>Flavor: Vanilla</small>
+								</p>								
+							</div>
+							<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1">	
+								<p>1</p>
+							</div>
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<p>$14.99</p>
+							</div>
+						</div>
+						
+						<div class="row cart-row">
+							<div class="col col-lg-10 col-md-10 col-sm-10 col-xs-10 right">	
+								<p>Subtotal</p>
+							</div>
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<p>$44.97</p>
+							</div>
+						</div>
+						<div class="row cart-row">
+							<div class="col col-lg-10 col-md-10 col-sm-10 col-xs-10 right">	
+								<p>Shipping & Handling (Federal Express - Priority Overnight)</p>
+							</div>
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<p>$32.76</p>
+							</div>
+						</div>
+						<div class="row cart-row">
+							<div class="col col-lg-10 col-md-10 col-sm-10 col-xs-10 right">	
+								<p>Total</p>
+							</div>
+							<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">	
+								<p>$77.73</p>
+							</div>
+						</div>						
+						<div class="row">
+							<div class="col col-lg-3 col-md-3 col-sm-12 hidden-sm"></div>
+							<div class="col col-lg-6 col-md-6 col-sm-12">	
+								<h5>Payment Information</h5>
+								<form action="contact.html" method="get" id="billing-form">
+									<input type="text" name="f-name" value="" placeholder="First Name" id="f-name" class="form-control"/>
+									<input type="text" name="l-name" value="" placeholder="Last Name" id="l-name" class="form-control"/>
+									<input type="text" name="cc-number" value="" placeholder="Credti Card Number" id="cc-number" class="form-control"/>
+									<input type="text" name="month" value="" placeholder="Month (MM)" id="month" class="form-control"/>									
+									<input type="text" name="year" value="" placeholder="Year (YYYY)" id="year" class="form-control"/>
+									<input type="text" name="cvv" value="" placeholder="CVV" id="cvv" class="form-control"/>									
+								</form>
+							</div>
+							<div class="col col-lg-3 col-md-3 col-sm-12 hidden-sm"></div>							
+						</div>
+						<div class="row action final">
+							<div class="col col-lg-12 col-md-12 col-sm-12">	
+								<button type="submit" class="btn btn-lg btn-info" rel="#step-4">PLACE ORDER <span class="glyphicon glyphicon-pushpin"></span></button>
+							</div>
+						</div>
+					</div>
+					<div id="step-4">
+						<div class="row">
+							<div class="col col-lg-12 col-md-12 col-sm-12">
+								<h5>Order Confirmation</h5>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col-lg-5 col-md-5 col-sm-12">
+								<h5>Thank you for your order!</h5>
+								<p>Your order # is <big>2014110909</big>.</p>
+								<p>In order is being processed and you will be notify as soon as your goodies are shipped.</p>
+								<p>If you ahve any quesitons/concerns, please contact our awesome Customer Serivce team @ orders@livelifelean.com</p>
+							</div>
+							<div class="col col-lg-3 col-md-3 col-sm-12">
+								<img src="images/app-cta.png" width="1200" height="1200" alt="App Cta" class="img-responsive">
+							</div>
+							<div class="col col-lg-4 col-md-4 col-sm-12">
+								<h2>Get the APP</h2>
+								<h5>Have you Download our FREE app yet?</h5>
+								<p>Join our team in beign a part of the Defatten America goal! Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+								<a class="btn btn-info btn-lg" href="https://itunes.apple.com/app/id399841706?mt=8" target="_blank"><span class="glyphicon glyphicon-download-alt"></span> DOWNLOAD NOW <small class="label label-primary">FREE</small></a>
+							</div>
+						</div>
+							<div class="row action share">
+							<div class="col col-lg-12 col-md-12 col-sm-12">	
+								<h6>Spread the word</h6>
+								<img src="images/share-us.png" width="305" height="23" alt="Share Us" class="share"/>
+							</div>
+						</div>
+					</div>
+					<!--End Steps -->
+					<div class="row">
+						<div class="col col-lg-12 col-md-12 col-sm-12">	
+							<img src="images/payment-types-logo.png" width="315" height="40" alt="Payment Types Logo" class="img-responsive payments">
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		
+		<!-- Modal -->
+			<!--Login -->
+			<div class="modal fade bs-example-modal-sm" id="login-popup" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-sm">
+			    <div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Login</h4>
+					</div>
+					<div class="modal-body">
+						<form action="index.html" method="get">
+							<input type="text" name="e-mail" value="" placeholder="E-mail" id="e-mail" class="form-control"/>
+							<input type="text" name="password" value="" placeholder="Password" id="password" class="form-control"/>
+							<p><a href="#forgot">Forgot Password?</a></p>
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-log-in"></span> Login</button>						
+							<p><big>OR</big></p>
+						</form>
+						<h5>Sign Up Today</h5>
+						<form action="index.html" method="get">
+							<input type="text" name="name" value="" placeholder="Name" id="name" class="form-control"/>
+							<input type="text" name="e-mail" value="" placeholder="E-mail" id="e-mail" class="form-control"/>
+							<input type="text" name="password" value="" placeholder="Password" id="password" class="form-control"/>
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-ok-sign"></span> Sign Up</button>						
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+			    </div>
+			  </div>
+			</div>
+		</div>			
+		<!-- Modal -->
+		
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+		<script src="javascripts/full-video.js" type="text/javascript"></script>
+		<script src="javascripts/waypoints.min.js" type="text/javascript"></script>
+		<script src="javascripts/checkout.js" type="text/javascript"></script>
+	</body>
+</html>
